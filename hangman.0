@@ -1,0 +1,61 @@
+#include <iostream>
+#include <vector>
+#include <string>
+
+
+const std::vector<std::string> hangManASCIIStorage =
+{
+	"\n\n\n",
+	" o\n\n\n",
+	" o\n/\n\n",
+	" o\n/|\n\n",
+	" o\n/|\\\n\n",
+	" o\n/|\\\n/\n",
+	" o\n/|\\\n/ \\\n"
+};
+
+
+
+struct hangmanStorage {
+	std::string correctWord;
+	std::string letterGuess;
+	const int maxIncorrectAttempts = 6;
+	int numberOfIncorrectAttempts = 0;
+	
+
+	void getCorrectWord() {
+		std::cout << "Please enter the word to be guessed" << std::endl;
+		//call function to assess the number of letters in the word and add underscores
+	};
+
+	void displayhangManASCIIArt() {
+
+		 
+
+	}
+
+	void letterGuessAttempt() {
+		std::string letterGuess;
+		std::cin >> letterGuess;
+
+
+	}
+
+
+	int updateGameScreen() {
+		while (numberOfIncorrectAttempts != numberOfIncorrectAttempts) {
+			std::cout << "Enter a lowercase letter to guess:\n";
+
+		}
+	}
+
+};
+
+int main() {
+	for (int i = 0; i < hangManASCIIStorage.size(); i++) {
+		std::cout << hangManASCIIStorage[i];
+	}
+	std::cin;
+	return 0;
+
+}
