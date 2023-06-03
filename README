@@ -1,1 +1,11 @@
-This is my first real project. I'm following along with the following website: https://eecs280staff.github.io/notes/Intro_C%2B%2B.html
+This is my first attempt at programming a real project. 
+I'm following along with the EECS 280 introduction to C++ website: https://eecs280staff.github.io/notes/Intro_C%2B%2B.html
+On a side note, this project shares very little in terms of similarity to the code provided in the aforementioned website.
+This is because I wanted to tackle this project only by using my own abilities.
+
+As of now, this program is currently finished and likely won't be revisted in the future as the code will likely never see daylight.
+An earlier iteration of the project can found under hangman.0
+The final version of the project can be found under main.cpp
+
+Thanks for reading!
+Cristian Out!
